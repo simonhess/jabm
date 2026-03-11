@@ -41,7 +41,7 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
-
+/*
 import net.infonode.docking.DockingWindow;
 import net.infonode.docking.RootWindow;
 import net.infonode.docking.SplitWindow;
@@ -56,6 +56,7 @@ import net.sourceforge.jabm.report.Report;
 import net.sourceforge.jabm.report.ReportWithGUI;
 import net.sourceforge.jabm.util.SystemProperties;
 import net.sourceforge.jabm.view.PropertiesEditor;
+*/
 
 import org.apache.log4j.AppenderSkeleton;
 import org.apache.log4j.Logger;
@@ -71,6 +72,8 @@ import org.apache.log4j.spi.LoggingEvent;
  * @author Steve Phelps
  */
 public class DesktopSimulationManager extends SimulationManager {
+	
+	/*
 
 	protected RootWindow desktopPane;
 	
@@ -389,7 +392,7 @@ public class DesktopSimulationManager extends SimulationManager {
 		return toolBar;
 	}
 	
-	/** Returns an ImageIcon, or null if the path was invalid. */
+	// Returns an ImageIcon, or null if the path was invalid.
 	protected ImageIcon createImageIcon(String path,
 	                                           String description) {
 	    java.net.URL imgURL = getClass().getResource(path);
@@ -645,5 +648,5 @@ public class DesktopSimulationManager extends SimulationManager {
 		}
 		
 	}
-
+	*/
 }
